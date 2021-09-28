@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* шрифт всего текста */
+    color:#212121; 
+    margin: 0;
+
+}
+h1 {color: #3a3a3a;
+    font-size: 52px; /* размер текста */
+    text-align: center;
+    border: 5px solid blue;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+.green {
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgba(red, green, blue, 0.1);
+
+}
+.double-line {
+    line-height: 2;
+}
+ul {
+    list-style-type: square;
+}
+img {
+    width: 30%;
+}
+
+/* стили блоков */
+
+.orange{
+    background-color: salmon;
+    
+}
+
+
+.pink {
+    background-color: seagreen;
+}
+.blue {
+    background-color: skyblue;
+}
+.block {
+    width: 30%;
+    border-radius: 15px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
